@@ -14,7 +14,7 @@ public class Toast extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); // 액티비티 기본 설정 및 상태 복원 작업 처리
-        setContentView(R.layout.activity_main_week3); // xml 레이아웃 파일을 액티비티에 연결하여 화면 구성 정의
+        setContentView(R.layout.activity_main_week3_toast); // xml 레이아웃 파일을 액티비티에 연결하여 화면 구성 정의
 
         Button b = (Button) findViewById((R.id.button3));
 
